@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EAEAEA" >
+    
+<TextView
+	android:id="@+id/status" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20sp"
+	android:textColor="#707070"
+	android:text="Getting GPS Location..."
+    android:layout_centerHorizontal="true"
+	/>
+	
+<ImageView android:id="@+id/signal"
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+	android:layout_below="@+id/status"
+	android:layout_centerHorizontal="true"
+	android:src="@drawable/gps" 
+    android:visibility="gone"
+    />	
+	
+<Chronometer
+    android:id="@+id/chrono"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_marginTop="40dp"
+    android:layout_below="@+id/signal"
+    android:layout_centerHorizontal="true"
+    android:textColor="#707070"
+    android:textSize="60.0dp"
+    android:textStyle="bold"
+    />
+
+<TextView
+	android:id="@+id/distance" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="25sp"
+	android:textColor="#707070"
+	android:text="0.00"
+	android:layout_below="@+id/chrono"
+	android:layout_centerHorizontal="true"
+	/>
+	
+<TextView
+	android:id="@+id/miles" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="10sp"
+	android:textColor="#707070"
+	android:text="DISTANCE (mi)"
+	android:layout_below="@+id/distance"
+	android:layout_centerHorizontal="true"
+	/>
+
+<ToggleButton android:id="@+id/toggleButton"
+	android:layout_width="200px"
+    android:layout_height="60px"
+    android:textOn="STOP" 
+    android:textOff="START"
+	android:layout_marginTop="60sp"
+	android:layout_below="@+id/miles"
+    android:layout_centerHorizontal="true"
+    />
+
+</RelativeLayout>

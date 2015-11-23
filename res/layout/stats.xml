@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    android:background="#EAEAEA">
+
+<TableRow>
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="Distance:"
+		android:textSize="24px"
+		android:textColor="#2D2D2D"
+		android:padding="10dip"
+		/>
+
+	<TextView
+		android:id="@+id/distance" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="24px"
+		android:textColor="#2D2D2D"
+		/>
+</TableRow>
+
+
+<TableRow>
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="Time:"
+		android:textSize="24px"
+		android:textColor="#2D2D2D"
+		android:padding="10dip"
+		/>
+
+	<TextView
+		android:id="@+id/time" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="24px"
+		android:textColor="#2D2D2D"
+		/>
+</TableRow>
+	
+<TableRow>	
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="Average Speed:"
+		android:textSize="24px"
+		android:textColor="#2D2D2D"
+		android:padding="10dip"
+		/>
+	<TextView
+		android:id="@+id/speed" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="24px"
+		android:textColor="#2D2D2D"
+		/>
+</TableRow>
+	
+<TableRow>
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="Elevation Gain:"
+		android:textSize="24px"
+		android:textColor="#2D2D2D"
+		android:padding="10dip"
+		/>
+	<TextView
+		android:id="@+id/elevation" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textSize="24px"
+		android:textColor="#2D2D2D"
+		/>
+</TableRow>
+
+</TableLayout>

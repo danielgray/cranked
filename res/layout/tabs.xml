@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TabHost android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="#ff1c1c1c" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" />
+            <View android:background="#0b6bbd" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+            <View android:background="#0b6bbd" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

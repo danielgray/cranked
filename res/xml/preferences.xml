@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<CheckBoxPreference android:title="Use wireless networks"
+		android:key="networks"
+		android:summary="When checked location determined by Wi-Fi and/or mobile networks" 
+		/>
+	
+	<PreferenceCategory android:title="GPS settings" />
+
+
+	<ListPreference android:key="minTime" 
+		android:title="GPS time update interval"
+		android:summary="Minimum time interval between location updates, in milliseconds." 
+		/>
+	<ListPreference android:key="minDistance"
+		android:title="GPS distance update interval"
+		android:summary="Minimum distance interval between location updates, in meters." 
+		/>
+	<ListPreference android:title="GPS Accuracy"
+		android:key="minAccuracy" 
+		android:summary="Minimum accuracy of location updates, in meters."
+		/>
+	<ListPreference
+		android:summary="If two points are farther apart than this, the track will be split. "
+		android:title="Max distance between updates" 
+		android:key="maxDistance" 
+		/>
+
+</PreferenceScreen>

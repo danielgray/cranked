@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="solid_red">#fff00000</color>
+    <color name="solid_blue">#ff0000ff</color>
+    <color name="solid_green">#ff00ff00</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="track">#ff4f95db</color>
+    <color name="green2">#ff81b409</color>
+    <color name="label">#ffbbbbbb</color>
+    <color name="light_grey">#ffe7e7e7</color>
+    <color name="rank">#ff464646</color>
+    <color name="leaderboard_item">#ffc2c2c2</color>
+    <color name="blue">#0b6bbd</color>
+</resources>
